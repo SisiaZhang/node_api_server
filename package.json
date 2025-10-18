@@ -11,10 +11,12 @@
   "description": "",
   "dependencies": {
     "@escook/express-joi": "^1.1.1",
-    "joi": "^17.11.0",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "express-jwt": "^8.5.1",
+    "joi": "^17.11.0",
+    "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.6.5"
   }
 }
