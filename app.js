@@ -31,6 +31,10 @@ const userRouter = require('./router/user')
 app.use('/api', userRouter)
 const userinfoRouter = require('./router/userinfo')
 app.use('/my', userinfoRouter)
+const artCateRouter = require('./router/artcate')
+app.use('/my/article', artCateRouter)
+const articleRouter = require('./router/article')
+app.use('/my/article', articleRouter)
 
 // 错误中间件
 const joi = require('joi')
